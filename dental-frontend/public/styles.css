@@ -733,18 +733,12 @@ iframe{
 }
 
 .banner-sm-text{
-    bottom:60%;
+    bottom:23%;
     left:12%;
-    font-size:20pt;
+    font-size:17pt;
     
 }
 
-.banner-sm-text{
-    bottom:26%;
-    left:12%;
-    font-size:20pt;
-    
-}
 .dental-logo{
     height: 75px;
     width: 150px;
@@ -758,6 +752,18 @@ iframe{
 .doctors-images{
     width:350px;
 }
+
+.banner-text-center{
+    font-size:40pt;
+    top: 40%;
+    left:50%;
+    }
+
+.banner-text-center-sm{
+    font-size:17pt;
+    top: 60%;
+    left:50%;    
+        }
 }
 
 @media only screen and (max-width:400px){
