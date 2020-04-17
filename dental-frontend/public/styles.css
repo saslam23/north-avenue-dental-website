@@ -725,7 +725,8 @@ iframe{
 }
 
 .service-banner{
-    filter:brightness(75%)
+    filter:brightness(75%);
+    height: 400px;
 }
 
 .banner-text-fillings{
