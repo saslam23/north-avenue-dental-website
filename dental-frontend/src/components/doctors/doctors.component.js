@@ -19,7 +19,7 @@ const Doctors = () => {
             </div>
             <div data-aos="fade-up" data-aos-duration="1000" className="container doctors">
                 <h1 style={{ textAlign: "left" }}>Who We Are</h1>
-                <p style={{ marginTop: "1rem", width: "700px", textAlign: "left", fontSize: "14pt", color: "#242323" }}>
+                <p style={{ marginTop: "1rem", textAlign: "left", fontSize: "14pt", color: "#242323" }}>
                     North Ave Dental Associates has three compassionate and skilled dentists who provide the most up to date dental services available.  Our DuPage dentists are “In Network” with most Dental PPO insurance plans. Our dental office is located at Rt 59 and North Ave in West Chicago.  Read the biographies of each of our West Chicago dentists.
                 </p>
                 <div style={{ color: "white" }}>
