@@ -118,7 +118,7 @@ export default class Home extends Component {
                         <h2 style={{ color: "white", textAlign: "center", marginTop: "2rem" }}>Call (630) 231-4500 or Email Us!</h2>
                     </div>
                 </div>
-                <div data-aos="fade-up" data-aos-duration="1500" className="services-home outer-picture container-fluid">
+                <div data-aos="fade-up" data-aos-duration="1500" className="services-home outer-picture container-fluid ">
                     <h1 style={{ marginTop: "2rem" }}> OUR SERVICES </h1>
                     <div className="service-pictures">
                         {services.map(Services)}
@@ -143,7 +143,7 @@ export default class Home extends Component {
                     <h1 style={{ paddingTop: "2rem" }}>Get in Touch</h1>
                     <div className="container mt-5">
                         <h5>WE ARE ACCEPTING NEW PATIENTS</h5>
-                        <p style={{ width: "600px", textAlign: "left", paddingTop: "10px" }}>
+                        <p style={{ textAlign: "left", paddingTop: "10px" }}>
                             North Ave Dental Associates see patients of all ages. We accept patients with and without dental insurance. We pride oruselves
                             on being affordable with several payment options so you can get the dentistry you need and want.
                         </p>
