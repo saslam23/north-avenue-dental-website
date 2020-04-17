@@ -217,6 +217,7 @@ p{
 /* DOCTORS TAB */
 #doctors{
     overflow-x:hidden;
+    overflow-y:hidden;
 }
 .left-aligner{
     text-align:left;
