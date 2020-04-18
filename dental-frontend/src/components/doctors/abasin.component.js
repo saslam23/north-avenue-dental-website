@@ -4,7 +4,7 @@ import { doctorInfo } from "../../data";
 
 const Abasin = () => {
     return (
-        <div style={{ marginBottom: "3rem" }} data-aos="fade-up" data-aos-duration="1500" id="dr-abasin-safi">
+        <div style={{ marginBottom: "3rem" }} id="dr-abasin-safi">
             <DoctorInfo
                 title={doctorInfo[2].title}
                 image={doctorInfo[2].image}

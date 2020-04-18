@@ -4,7 +4,7 @@ import { doctorInfo } from "../../data";
 
 const Monim = () => {
     return (
-        <div style={{ marginBottom: "10rem" }} data-aos="fade-up" data-aos-duration="1500" id="dr-monim-albassaz">
+        <div style={{ marginBottom: "10rem" }} id="dr-monim-albassaz">
             <DoctorInfo
                 title={doctorInfo[0].title}
                 image={doctorInfo[0].image}
