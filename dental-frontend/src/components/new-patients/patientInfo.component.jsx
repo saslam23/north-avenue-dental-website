@@ -14,7 +14,7 @@ const AlignLeft = (props) => {
                                 <li key={item}>{item}</li>
                             )}
                         </ul>
-                        <img style={{ height: "230px", width: "380px" }} src={props.image} alt="new_patient_image" />
+                        <img className="office-patients-pictures" src={props.image} alt="new_patient_image" />
                     </div>
                     <div className="col-lg-4">
                         <img style={{ height: "350px", width: "300px", marginTop: "3rem", marginBottom: "2rem" }} src={props.image2} alt="quip" />
@@ -48,7 +48,7 @@ const AlignLeftButton = (props) => {
 
                     </div>
                     <div className="col-lg-4">
-                        <img style={{ height: "250px", width: "380px", marginTop: "3rem" }} src={props.image} alt="new_patient" />
+                        <img className="office-patients-pictures" src={props.image} alt="new_patient" />
                     </div>
                 </div>
 
@@ -65,7 +65,7 @@ const AlignRight = (props) => {
                 <div className="office-comfort container">
                     <div className="office-comfort-main row">
                         <div className="col-lg-4">
-                            <img style={{ height: "230px", width: "380px", marginTop: "3rem" }} src={props.image} alt="new_patient" />
+                            <img className="office-patients-pictures" style={{ marginTop: "3rem" }} src={props.image} alt="new_patient" />
                         </div>
                         <div style={{ marginTop: "2rem" }} className="col-lg-8">
                             <h2 style={{ textAlign: "right" }}>{props.header}</h2>
