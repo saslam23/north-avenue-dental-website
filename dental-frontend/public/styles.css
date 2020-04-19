@@ -683,7 +683,7 @@ bottom:45%;
     width:75px;
     text-align:center;
     font-weight:bold;
-    font-family: 'Roboto Slab', serif; 
+    font-family: 'Roboto Slab', serif;
     font-size: 9pt;
 }
 
@@ -836,6 +836,7 @@ iframe{
         bottom: 5%;
         width:75px;
         font-size: 6pt;
+        font-weight:bold;
     }
     .dental-logo{
         height: 75px;
