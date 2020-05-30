@@ -9,6 +9,7 @@ import Reviews from "./components/reviews/reviews.component";
 import Services from "./components/services.component";
 import NotFound from "./components/NotFound.component";
 import Doctors from "./components/doctors/doctors.component";
+import Gallery from "./components/gallery.component";
 import Footer from "./components/Footer/footer.component";
 import Success from "./components/message.component";
 import Fail from "./components/fail.component";
@@ -22,13 +23,14 @@ function App() {
           <Route path="/" exact component={Home} />
           <Route path="/office" component={Office} />
           <Route path="/services" component={Services} />
-          <Route path="/patients" component={Patients} />
-          <Route path="/contact" component={Contacts} />
-          <Route path="/reviews" component={Reviews} />
           <Route path="/doctors" component={Doctors} />
+          <Route path="/patients" component={Patients} />
+          <Route path="/reviews" component={Reviews} />
+          <Route path="/contact" component={Contacts} />
+          <Route path="/gallery" component={Gallery} />
           <Route path="/success" component={Success} />
           <Route path="/fail" component={Fail} />
-          <Router path="*" exact={true} component={NotFound} />
+          <Router path="*"><NotFound /></Router>
         </Switch>
       </Router>
       <Footer />
