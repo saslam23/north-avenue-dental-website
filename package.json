@@ -28,7 +28,7 @@
     "express": "^4.17.1",
     "heroku-ssl-redirect": "0.0.4",
     "nodemailer": "^6.4.6",
-    "nodemailer-mailgun-transport": "^2.0.0",
+    "nodemailer-mailgun-transport": "^2.1.5",
     "nodemon": "^2.0.3",
     "request": "^2.88.2"
   }
